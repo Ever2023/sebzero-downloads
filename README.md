@@ -27,4 +27,5 @@ Client startup problems are recorded in
 
 This repository contains player downloads. It does not contain game-server
 source code, account saves or private keys. Use the latest launcher download
-above; initial release 1.0.0 was superseded by the GitHub-download fix in 1.0.1.
+above. Current release 1.0.2 includes an obfuscated launcher and client. Earlier
+launcher ZIPs were retired; existing game caches and player progress remain.
