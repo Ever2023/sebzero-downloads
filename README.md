@@ -2,15 +2,15 @@
 
 Official Windows launcher and signed client downloads.
 
-**[Download the SebZero Launcher](https://github.com/Ever2023/sebzero-downloads/releases/latest/download/SebZero-Launcher-Windows.zip)**
+**[Download SebZero-Launcher.jar](https://github.com/Ever2023/sebzero-downloads/releases/latest/download/SebZero-Launcher.jar)**
 
-1. Extract the entire ZIP into a folder you want to keep.
-2. Open **Play SebZero.vbs**.
+1. Install **64-bit Java 8** if you do not already have it.
+2. Open **SebZero-Launcher.jar**.
 3. Let the launcher install the client, then choose **Play SebZero**.
 
-Run **Install Shortcut.vbs** to add the icy SebZero icon to your desktop. Keep the
-extracted folder in place. Java 8 x64 is included; no separate Java install or
-administrator access is needed.
+The obfuscated JAR contains the icy launcher, updater settings and public
+verification key. No ZIP extraction, scripts, sidecar files or administrator
+access is needed. Java is installed separately.
 
 Your launcher checks for signed client updates automatically. Keep using the
 launcher when new updates are announced. The game cache and preferences remain
@@ -27,5 +27,5 @@ Client startup problems are recorded in
 
 This repository contains player downloads. It does not contain game-server
 source code, account saves or private keys. Use the latest launcher download
-above. Current release 1.0.2 includes an obfuscated launcher and client. Earlier
-launcher ZIPs were retired; existing game caches and player progress remain.
+above. Release 1.0.3 adds the single-JAR launcher. Both launcher and client remain
+obfuscated, and existing game caches and player progress remain.
